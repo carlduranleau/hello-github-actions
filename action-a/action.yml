@@ -8,6 +8,10 @@ inputs:
     required: true
     default: "World"
 
+  MY_BRANCH:
+    description: "Current branch"
+    required: true
+
 runs:
   using: "docker"
   image: "Dockerfile"
